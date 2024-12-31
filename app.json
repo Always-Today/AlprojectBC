@@ -1,0 +1,37 @@
+{
+  "id": "26293712-95d5-421d-a8c1-d3d1ed52b816",
+  "name": "ALProject1",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [  {
+    "appId": "GUID-OF-DEPENDENT-APP",
+    "name": "BaseApp",
+    "publisher": "Microsoft",
+    "version": "1.0.0.1"
+}],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
